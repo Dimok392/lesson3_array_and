@@ -5,6 +5,10 @@ int d = 10;
 int c = a % 100;
 Console.WriteLine($"c={c}");
 
+if (a<99999&a>9999)
+{
+
+
 if (b % d == c / d & b / d == c % d)
 {
     Console.WriteLine($"число {a} является полиндромом");
@@ -13,4 +17,9 @@ if (b % d == c / d & b / d == c % d)
 else
 {
     Console.WriteLine($"число {a} не является полиндромом");
+}
+}
+else 
+{
+    Console.WriteLine($"число {a} не пятизначное");
 }
